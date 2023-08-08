@@ -29,9 +29,10 @@
 					datasets: data.datasets
 				},
 				options: {
+					animation: false,
 					scales: {
 						y: {
-							beginAtZero: true
+							beginAtZero: false
 						}
 					}
 				}
